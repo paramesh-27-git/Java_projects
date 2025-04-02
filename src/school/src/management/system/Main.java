@@ -1,18 +1,19 @@
 package school.src.management.system;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-public class main {
+public class Main {
+
+
     public static void main(String[] args) {
-        teacher jahnvi=new teacher(1,"Jahni",30000);
-        teacher Sam=new teacher(2,"Samantha",10000);
-        teacher Malavika=new teacher(3,"Malavika",40000);
+        teacher Radha=new teacher(1,"Radha",30000);
+        teacher Sam=new teacher(2,"Sam",10000);
+        teacher Saranya=new teacher(3,"Saranya",40000);
         List<teacher> teacherlist = new ArrayList<>();
-        teacherlist.add(jahnvi);
+        teacherlist.add(Radha);
         teacherlist.add(Sam);
-        teacherlist.add(Malavika);
+        teacherlist.add(Saranya);
         Student vijay= new Student(1,"Vijay",8);
         Student surya= new Student(2,"Surya",7);
         Student ajith= new Student(3,"Ajith",10);
@@ -23,7 +24,7 @@ public class main {
         school ghs=new school(teacherlist,studentList);
         vijay.update_fees(40000);
         ajith.update_fees(50000);
-        jahnvi.receive_salary(jahnvi.getSalary());
+        Radha.receive_salary(Radha.getSalary());
         Sam.receive_salary(Sam.getSalary());
         System.out.println(ghs.getTotal_money_earned());
         System.out.println(ghs.getTeachers()+" "+ghs.getStudents());
