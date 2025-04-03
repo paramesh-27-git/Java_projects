@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
         teacher Radha=new teacher(1,"Radha",30000);
-        teacher Sam=new teacher(2,"Sam",10000);
+        teacher Sam=new teacher(2,"Samantha",10000);
         teacher Saranya=new teacher(3,"Saranya",40000);
         List<teacher> teacherlist = new ArrayList<>();
         teacherlist.add(Radha);
