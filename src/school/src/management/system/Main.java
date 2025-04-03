@@ -10,10 +10,12 @@ public class Main {
         teacher Radha=new teacher(1,"Radha",30000);
         teacher Sam=new teacher(2,"Samantha",10000);
         teacher Saranya=new teacher(3,"Saranya",40000);
+        teacher Radha1=new teacher(1,"Radha1",50000);
         List<teacher> teacherlist = new ArrayList<>();
         teacherlist.add(Radha);
         teacherlist.add(Sam);
         teacherlist.add(Saranya);
+        teacherlist.add(Radha1);
         Student vijay= new Student(1,"Vijay",8);
         Student surya= new Student(2,"Surya",7);
         Student ajith= new Student(3,"Ajith",10);
